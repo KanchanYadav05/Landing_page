@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>cupcake</title>
+        <link rel="stylesheet" type="text/css" href="train.css">
+    </head>
+    <body>
+        <div class="ball"></div>
+        <section>
+            <header>
+                <a href="#"><img src="c:\Users\Admin\Downloads\pngtree-cupcake-logo-with-cherry-and-text-png-image_3800716.jpg" width="60"></a>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Our Menu</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </header>
+            <div class="container"></div>
+            <div class="content">
+                <h1>Shope <span>Cupcake</span></h1>
+                <h2>Order Cupcake For Your Party</h2>
+                <p> Cupcakes are small, tasty snack cakes that are favored for their portability and portion-control. They are batter cakes baked in a cup-shaped foil or temperature resistant paper. A cupcake can be prepared from a variety of formulations and can be decorated with cream and icings.</p>
+                <a href="#">Order Now</a>
+                </div>
+            </div>
+
+
+
+            <div class="proudcts">
+                <img src="c:\Users\Admin\Downloads\images (1).jpeg" class="cupcake">
+            </div>
+
+            <ul class="click">
+                <li><img src="c:\Users\Admin\Downloads\images (1).jpeg"onclick=" imgSlider('c:\Users\Admin\Downloads\images (1).jpeg');changeColor('#9f6551')"></li>
+                <li><img src="c:\Users\Admin\Downloads\image.2.jpeg"onclick=" imgSlider('c:\Users\Admin\Downloads\image.2.jpeg');changeColor('#e7b6ab')"></li>
+                <li><img src="c:\Users\Admin\Downloads\image.3.jpeg"onclick=" imgSlider('c:\Users\Admin\Downloads\image.3.jpeg');changeColor('#f9b038')"></li>
+            </ul>
+        </div>
+
+        <script type="text/javascript">
+            function imgSlider(anything){
+                document.querySelector('.cupcake').src = anything;
+            }
+            function changeColor(color){
+               const ball = document.querySelector('.ball');
+               ball.style.background = color;
+            }
+        </script>
+
+
+        </section>
+
+    </body>
+</html>
